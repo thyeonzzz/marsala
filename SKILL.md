@@ -28,6 +28,7 @@ metadata:
 |------|---------|
 | 完整项目 / 客户总监调度 | `skills/account-director.md` |
 | 完整项目 / 理论总纲 | `skills/brand-theory.md`（三问三层） |
+| 完整项目 / 战役理论总纲 | `skills/campaign-theory.md`（战役三问三层） |
 | 审核任何手/定位的产出 | `skills/review-rules.md`（+ 被审文件） |
 | 商业战略 / 增长 / 利润 | `skills/hand-1-business-strategy.md` |
 | 市场研究 / 行业 / 竞品 | `skills/hand-2-market-research.md` |

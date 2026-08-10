@@ -94,4 +94,6 @@ Marsala 吸收外部理论（如品牌叙事六类型、Censydiam 消费者动�
 
 ---
 
+**与战役理论的关系：** campaign 是品牌表达的时间切片——营销策划支线另有对应总纲 `campaign-theory.md`（战役三问三层：时机 / 触达 / 沉淀），本文件为品牌咨询支线总纲。
+
 **ChatGPT 适配版附注：** 本通道附加文件按层归入——核心契约（`core-contract.md`，贯穿三层）、双模式入口（`delivery-modes.md`，调度）、创意层（`creative-layer.md`，模块五的生成与选择）、自设 Brief（`self-brief.md`，向前看练习）、逻辑说明书（`argument-layer.md`，交付）、审核规则（`review-rules.md`，中枢审查）。证据治理层在 ChatGPT 通道为独立文件 `evidence-governance.md`（reasonix 版内嵌于中枢文件）。
