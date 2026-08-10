@@ -1,19 +1,17 @@
-# Marsala · Beta 3.4.0（ChatGPT 适配版）
+# Marsala · Beta 3.4.0
 
 一套品牌营销策略可执行知识（Executable Knowledge）。只做判断——给出方向、原因、纲领性路径，不涉及具体执行方案。
 
 ---
 
-## 分支说明
+## 版本说明
 
-| 分支 | 平台 | 状态 |
-|------|------|------|
-| `reasonix` | Reasonix Code | 🟢 开发主分支，内容最新 |
-| `chatgpt` | ChatGPT / Codex | 🟢 本分支。双阶段加载 + 文件化记忆 + 统一证据治理 + 理论总纲（三问三层） |
-| `claude-code` | Claude Code | 🟡 已移植，同步滞后 |
-| `main` | 说明页 | 不存储代码，由 Claude Code 维护 |
+| 版本 | 状态 |
+|------|------|
+| `chatgpt`（本分支） | ✅ 唯一维护版本，全权代表 Marsala 项目 |
+| `reasonix` / `claude-code` / `main` | ⛔ 已停用，旧仓库已私有化存档 |
 
-**本分支以 `reasonix` 为内容基准，针对 ChatGPT 的上下文与工具特性做了适配，改动清单见 [PORTING-NOTES.md](PORTING-NOTES.md)。**
+本分支为唯一内容基准（Beta 3.4.0 起）：双阶段加载 + 文件化记忆 + 统一证据治理 + 品牌/战役双理论总纲。改动清单见 [PORTING-NOTES.md](PORTING-NOTES.md)。
 
 ---
 
@@ -105,22 +103,20 @@ Marsala 不是另一个 AI 营销工具。大多数同类产品帮你**执行**�
 > 如果以后想改成「只在一个项目生效」：删除 `~\.codex\skills\marsala`，
 > 把技能文件放进该项目目录下的 `.codex\skills\marsala\` 即可。
 
-### 更新（reasonix 有改动时）
+### 更新
 
-把 reasonix 分支的最新内容按 [PORTING-NOTES.md](PORTING-NOTES.md) 的映射同步进
-仓库后提交，再运行一次 `.\install-codex.ps1` 刷新全局安装（会话记忆不会被覆盖）。
+本分支为唯一内容源，直接在分支上维护；修改后运行一次 `.\install-codex.ps1` 刷新全局安装（会话记忆不会被覆盖）。
 
 ### 在其他平台
 
-- **Reasonix（开发用）**：见 `reasonix` 分支，加载 `MEMORY.md` 即启动
-- **Claude Code**：见 `claude-code` 分支（含 `CLAUDE.md` 与 `.claude/skills/marsala.md`）
+- **Reasonix / Claude Code**：对应版本已停用，不再维护远端；本地目录保留作开发存档
 - **Hermes / WorkBuddy**：可加载本目录的 Markdown 文件，但平台迁移不是简单复制——核心加载机制的保真度是关键
 
-每个平台一个独立通道文件夹（Reasonix / Claude Code / ChatGPT / Hermes 各占一个），互不干扰。
+本分支（ChatGPT / Codex）为唯一维护通道。
 
-### 平台表现观察
+### 版本沿革
 
-Reasonix 表现最好，适合作为开发环境；ChatGPT 版的目标是在应用环境中达到并超过 Reasonix——通过双阶段加载省上下文、统一证据治理消冲突、文件化记忆跨会话持久，以及原生交付件能力（文档/表格/演示文稿）。
+ChatGPT 版通过双阶段加载省上下文、统一证据治理消冲突、文件化记忆跨会话持久，以及原生交付件能力（文档/表格/演示文稿），实测表现优于此前的 Reasonix 版；自 Beta 3.4.0 起为 Marsala 的唯一维护版本。
 
 ---
 

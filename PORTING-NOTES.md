@@ -1,8 +1,8 @@
 # Marsala · ChatGPT 适配说明（chatgpt 分支）
 
 **版本：** Beta 3.4.0（ChatGPT 适配版）
-**内容基准：** `reasonix` 分支
-**目标：** 在 ChatGPT 应用环境中达到并超过 Reasonix 的表现。
+**内容基准：** 本分支（chatgpt）——Beta 3.4.0 起为 Marsala 唯一权威版本（reasonix 分支已停用）
+**目标：** 作为 Marsala 项目的唯一代表版本稳定输出。
 
 ---
 
@@ -65,21 +65,12 @@ reasonix / hermes / workbuddy / Claude Code 都不会读它，但本机所有 Co
 - **ChatGPT 项目**：把 `SKILL.md`、`MEMORY.md`、`skills/`、`memory/` 上传到项目，并在项目说明中写「项目包含 Marsala 技能，按 SKILL.md 加载」
 - **自定义 GPT**：把 `SKILL.md` 的加载协议写入 Instructions，`skills/` 作为 Knowledge 上传
 
-## 从 reasonix 同步内容（开发流程）
+## 同步说明（Beta 3.4.0 起）
 
-Reasonix 分支是内容基准，把新内容搬进 ChatGPT 通道时按以下映射操作：
-
-| reasonix 分支 | chatgpt 分支（本目录） |
-|---------------|----------------------|
-| `MEMORY.md` | `MEMORY.md`（仓库根目录） |
-| `skills/` | `skills/`（仓库根目录） |
-| `marsala.md` 中仍有效的内容 | 合并进 `SKILL.md`（仓库根目录） |
+本分支为唯一内容源，不再有上游（reasonix）同步。旧 reasonix / claude-code 远端分支已停用、旧仓库已私有化存档；本地 `C:\Users\15052\Desktop\Marsala` 目录仅作开发存档。
 
 注意事项：
-- `memory/` 是 ChatGPT 会话的活记忆，同步时不要整体覆盖，只补种子内容
-- reasonix 特有的工具引用（`remember`、`AnySearch`、`MARSALA_HOME`）不要带入，
-  对应能力在 ChatGPT 版已映射为内置搜索 / 文件工具 / `memory/` 目录
-- 同步后运行本机校验：`quick_validate.py .`（仓库根目录），再执行 `.\install-codex.ps1` 刷新全局安装
+- `memory/` 是会话的活记忆，跨仓库迁移时不要整体覆盖，只补种子内容
 - 会话记忆累积在 `~\.codex\skills\marsala\memory\`，需要入库时把该目录内容复制回仓库 `memory/` 再提交
 
 ---
