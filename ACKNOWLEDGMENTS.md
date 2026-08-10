@@ -30,7 +30,7 @@ Marsala 可执行知识体系的许多方法论受益于以下开源项目和社
 **[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)**（29.7k ⭐）
 > Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
 >
-> 为 Marsala 提供了：B站搜索、小红书消费口碑、Reddit/YouTube/Twitter 等社交平台的内容读取能力，补全了消费者研究手中"数字化水源采集"所需的实际数据访问能力。
+> 为 Marsala 提供了：B站搜索、小红书消费口碑、Reddit/YouTube/Twitter 等社交平台的内容读取能力，补全了消费者研究模块中"数字化水源采集"所需的实际数据访问能力。
 
 ---
 

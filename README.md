@@ -1,4 +1,4 @@
-# Marsala · Beta 3.3.2（ChatGPT 适配版）
+# Marsala · Beta 3.4.0（ChatGPT 适配版）
 
 一套品牌营销策略可执行知识（Executable Knowledge）。只做判断——给出方向、原因、纲领性路径，不涉及具体执行方案。
 
@@ -9,7 +9,7 @@
 | 分支 | 平台 | 状态 |
 |------|------|------|
 | `reasonix` | Reasonix Code | 🟢 开发主分支，内容最新 |
-| `chatgpt` | ChatGPT / Codex | 🟢 本分支。双阶段加载 + 文件化记忆 + 统一证据治理 |
+| `chatgpt` | ChatGPT / Codex | 🟢 本分支。双阶段加载 + 文件化记忆 + 统一证据治理 + 理论总纲（三问三层） |
 | `claude-code` | Claude Code | 🟡 已移植，同步滞后 |
 | `main` | 说明页 | 不存储代码，由 Claude Code 维护 |
 
