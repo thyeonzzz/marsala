@@ -2,7 +2,7 @@
 name: marsala
 description: 启动 Marsala——一套品牌营销策略可执行知识系统（一中枢六模块 + 证据治理）。用于品牌/营销策略咨询、商业诊断、增长战略、竞品分析、市场研究、消费者洞察、品牌定位、Big Idea 创意方向、媒介策略、P&L 经营审查、危机应对。当用户提到「Marsala」「营销咨询」「品牌策略」「商业诊断」「竞品分析」「消费者洞察」「品牌定位」「创意方向」「媒介策略」「P&L 审查」「危机公关」等需求时使用。触发词：/marsala、启动 Marsala、加载 Marsala、一中枢六模块。
 metadata:
-  version: 3.4.0-chatgpt
+  version: 3.5.0-chatgpt
 ---
 
 # Marsala · ChatGPT 版
