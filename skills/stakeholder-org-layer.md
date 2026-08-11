@@ -1,4 +1,4 @@
-# 🏛️ Stakeholder & Organization Layer（内部版）
+# 🏛️ Stakeholder & Organization Layer
 
 ## 职责定位
 

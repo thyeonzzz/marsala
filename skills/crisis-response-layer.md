@@ -1,4 +1,4 @@
-# 🚨 Crisis Response Layer（内部版）
+# 🚨 Crisis Response Layer
 
 ## 职责定位
 

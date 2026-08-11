@@ -1,4 +1,4 @@
-# 💰 Business & P&L Review Layer（内部版）
+# 💰 Business & P&L Review Layer
 
 ## 职责定位
 
