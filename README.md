@@ -1,6 +1,6 @@
 # Marsala
 
-品牌营销策略可执行知识（Executable Knowledge）——一套以 Markdown 文件承载判断逻辑、工作流程与质量标准的策略系统，与 Agent Runtime 解耦，可在不同平台加载运行。
+一套应用于品牌咨询和营销策划领域的可执行知识（Executable Knowledge）——以 Markdown 文件承载判断逻辑、工作流程与质量标准的策略系统，与 Agent Runtime 解耦，可在不同平台加载运行。
 
 Marsala 不做执行，只做判断：面对一个商业问题，给出明确的方向、讲清背后的理由，并说明如何验证这个方向对不对。
 
