@@ -25,13 +25,6 @@ Marsala 可执行知识体系的许多方法论受益于以下开源项目和社
 >
 > 为 Marsala 提供了：广告滞后效应（Adstock）、边际递减效应（Saturation）、CLV 双轨模型（合约型/自由型）、离散选择模型、Bass 扩散模型。
 
-## Agent 基础设施
-
-**[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)**（29.7k ⭐）
-> Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
->
-> 为 Marsala 提供了：B站搜索、小红书消费口碑、Reddit/YouTube/Twitter 等社交平台的内容读取能力，补全了消费者研究模块中"数字化水源采集"所需的实际数据访问能力。
-
 ---
 
 ## 方法论与框架
