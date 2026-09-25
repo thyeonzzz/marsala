@@ -71,7 +71,7 @@ reasonix / hermes / workbuddy / Claude Code 都不会读它，但本机所有 Co
 
 ## 同步说明（Beta 3.4.0 起）
 
-本分支为唯一内容源，不再有上游（reasonix）同步。旧 reasonix / claude-code 远端分支已停用、旧仓库已私有化存档；本地 `C:\Users\15052\Desktop\Marsala` 目录仅作开发存档。
+本分支是唯一发布版本，但不等于唯一内容源：内容仍在本地 reasonix 工作区（`C:\Users\15052\Desktop\Advertising Strategy Agent\.reasonix\`）开发，再同步进本仓库。旧 reasonix / claude-code 远端分支已停用、旧仓库已私有化存档；`C:\Users\15052\Desktop\Marsala` 目录是同步镜像。
 
 注意事项：
 - `memory/` 是会话的活记忆，跨仓库迁移时不要整体覆盖，只补种子内容
