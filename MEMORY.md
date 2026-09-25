@@ -181,3 +181,9 @@ Marsala 是一套应用于品牌咨询和营销策划领域的可执行知识（
 | [数英网 digitaling.com](https://www.digitaling.com) | 广告营销案例、行业文章、创意项目、招聘 | 案例参考、趋势追踪、竞品创意分析 |
 | [SocialBeta socialbeta.com](https://socialbeta.com) | 品牌营销快讯、案例一周、营销周报、趋势报告 | 每日行业动态、品牌实践追踪、标签化案例检索 |
 | [CBNData cbndata.com](https://www.cbndata.com/) | 第一财经商业数据中心。消费行业报告、人群研究、品类趋势、品牌榜单 | 市场研究（模块二）的行业趋势判断——食品饮料、美妆个护、大健康等消费品类的公开报告。证据等级 E3-E4 |
+
+### 内部数据资产
+
+| 资产 | 位置 | 用途 |
+|------|------|------|
+| 案例语料库（12 sheet，5154 案例 × 55 列，1743 品牌 / 1291 文章 / 293 趋势） | `.reasonix/attachments/案例语料库.xlsx`（约 5.9MB，本机资产；`.reasonix/` 已被 .gitignore 忽略，不入公开仓库） | 案例库 `case-library.md` 的数据底座：创意机制 M01–M21、动机八维、策略动作、叙事重心、三问三层诊断、证据用途等 Marsala 自有框架的语料检索与频率先验。读表用 pandas，过滤键见 `case-library.md`。原始报道来自公开行业媒体，只作证据来源 |
