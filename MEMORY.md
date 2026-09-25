@@ -186,4 +186,4 @@ Marsala 是一套应用于品牌咨询和营销策划领域的可执行知识（
 
 | 资产 | 位置 | 用途 |
 |------|------|------|
-| 案例语料库（12 sheet，5154 案例 × 55 列，1743 品牌 / 1291 文章 / 293 趋势） | `.reasonix/attachments/案例语料库.xlsx`（约 5.9MB，本机资产；`.reasonix/` 已被 .gitignore 忽略，不入公开仓库） | 案例库 `case-library.md` 的数据底座：创意机制 M01–M21、动机八维、策略动作、叙事重心、三问三层诊断、证据用途等 Marsala 自有框架的语料检索与频率先验。读表用 pandas，过滤键见 `case-library.md`。原始报道来自公开行业媒体，只作证据来源 |
+| 案例语料库（12 sheet，5154 案例 × 55 列，1743 品牌 / 1291 文章 / 293 趋势） | `C:\Users\15052\Desktop\Advertising Strategy Agent\.reasonix\attachments\clipboard-20260926-012553.825328-000001.xlsx`（约 5.9MB；本地训练材料，不入仓库、不外发） | 案例库 `case-library.md` 的数据底座：创意机制 M01–M21、动机八维、策略动作、叙事重心、三问三层诊断、证据用途等 Marsala 自有框架的语料检索与频率先验。读表用 pandas，过滤键见 `case-library.md`。原始报道来自公开行业媒体，只作证据来源 |

@@ -6,7 +6,7 @@
 
 ## 数据底座：案例语料库
 
-> 本机资产（不入仓库）。文件：`.reasonix/attachments/案例语料库.xlsx`（约 5.9MB；`.reasonix/` 已被 .gitignore 忽略，不入公开仓库；本机无此文件时只读本文的机制与表格）。这是**案例语料，不是方法来源**——方法一律以 Marsala 三问三层与六模块为准。**查案例先查这里，再落到本文的机制与表格。** 读表用 pandas：`xl = pd.ExcelFile(路径)`。
+> **本地训练材料：不入仓库、不外发。** 文件在本机开发工作区：`C:\Users\15052\Desktop\Advertising Strategy Agent\.reasonix\attachments\clipboard-20260926-012553.825328-000001.xlsx`（约 5.9MB；另有副本 `C:\Users\15052\Desktop\Downloads\深度研究数据库.xlsx`）。**技能目录不携带它**——本机无此文件时只读本文的机制与表格。这是**案例语料，不是方法来源**——方法一律以 Marsala 三问三层与六模块为准。**查案例先查这里，再落到本文的机制与表格。** 读表用 pandas：`xl = pd.ExcelFile(路径)`。
 
 - **规模**：12 个 sheet。`案例总表` 5154 条案例 × 55 列，覆盖 1743 个品牌、1291 篇公开报道（原始报道来自公开行业媒体，只作证据来源）。另有 `趋势库` 293 条趋势，及 9 张维度统计表。
 - **语料列名（数据源字段，照查）**：brand/industry/time/evidence、business_goal、growth_line、growth_lever、hidden_premise、resistance、problem_nature、motive_compass、need_layer、pain_type、emotion、jtbd、identity、competitor_*、power、market_position、action_type、action、positioning、narrative_type、compass8、sk_code、anchor、media_role、content_type、format、platform、participation、metric、metric_evidence、baseline、counterfactual、evidence_gap、skill_point、transferable_mechanism、precondition、failure_condition、verdict、source、source_article_id。

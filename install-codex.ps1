@@ -20,7 +20,7 @@ $dest = Join-Path (Join-Path $HOME '.codex\skills') 'marsala'
 Write-Host "==> 安装 Marsala 到 Codex 全局技能目录：$dest"
 New-Item -ItemType Directory -Path $dest -Force | Out-Null
 
-foreach ($name in @('SKILL.md', 'MEMORY.md', 'skills', 'memory', 'agents', '.reasonix')) {
+foreach ($name in @('SKILL.md', 'MEMORY.md', 'skills', 'memory', 'agents')) {
     $src = Join-Path $repoRoot $name
     if (-not (Test-Path -LiteralPath $src)) {
         Write-Host "    跳过 $name（仓库中不存在）"
